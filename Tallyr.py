@@ -11,8 +11,6 @@ class Calls:
         self.File = None
         self.Count = 0
         self.Prompt = None
-        self.Check_adv = False
-        self.adverb_setter = []
 
     # count words in files from file_handler
     def word_counter(self, words):
@@ -42,8 +40,6 @@ class Calls:
                     pass
 
                 self.word_counter(words)    # pass words into counter
-                if self.Check_adv:
-                    self.adv_counter(words)     # if Check_adv selected, pass into adv_counter
 
         except Exception as e:
             self.Prompt = str(e)
@@ -116,5 +112,6 @@ if __name__ == "__main__":
     display_area.pack()
 
     root.mainloop()
+
 
 

@@ -58,9 +58,12 @@ class Calls:
             error_close.pack(pady="40", padx="20", ipadx="20", side="bottom")
 
     def reset(self):
+        icon_path = path.join(current_dir, ".images\\icon.ico")
         reset_window = ttk.Toplevel(root)
         reset_window.geometry("370x200+600+600")
         reset_window.resizable(False, False)
+        reset_window.iconbitmap(icon_path)
+        reset_window.title("Tallyr")
         reset_frame = ttk.Frame(reset_window)
         reset_prompt = ttk.Label(reset_window, text="Reset the counter?", font="Helvetica 12")
         reset_prompt.pack(pady="40", padx="50")
@@ -77,8 +80,8 @@ class Calls:
 
 if __name__ == "__main__":
     current_dir = getcwd()
-    icon_path = path.join(current_dir, "images\\icon.ico")
-    open_file = path.join(current_dir, "images\\open_file.png")
+    icon_path = path.join(current_dir, ".images\\icon.ico")
+    open_file = path.join(current_dir, ".images\\open_file.png")
 
     root = ttk.Window(themename="cyborg", title="Tallyr")
     root.iconbitmap(icon_path)
@@ -112,6 +115,3 @@ if __name__ == "__main__":
     display_area.pack()
 
     root.mainloop()
-
-
-

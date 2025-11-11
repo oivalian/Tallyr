@@ -84,9 +84,9 @@ if __name__ == "__main__":
     icon_path = path.join(current_dir, "images\\icon.ico")
     open_file = path.join(current_dir, "images\\open_file.png")
 
-    root = ttk.Window(themename="cyborg", title="Word Counter")
+    root = ttk.Window(themename="cyborg", title="Tallyr")
     root.iconbitmap(icon_path)
-    root.title("countR")
+    root.title("Tallyr")
     root.geometry("500x300+600+600")
     root.resizable(False, False)
 
@@ -116,4 +116,5 @@ if __name__ == "__main__":
     display_area.pack()
 
     root.mainloop()
+
 

@@ -81,8 +81,8 @@ class Calls:
 
 if __name__ == "__main__":
     current_dir = getcwd()
-    icon_path = path.join(current_dir, ".images\\icon.ico")
-    open_file = path.join(current_dir, ".images\\open_file.png")
+    icon_path = path.join(current_dir, "images\\icon.ico")
+    open_file = path.join(current_dir, "images\\open_file.png")
 
     root = ttk.Window(themename="cyborg", title="Word Counter")
     root.iconbitmap(icon_path)
@@ -116,3 +116,4 @@ if __name__ == "__main__":
     display_area.pack()
 
     root.mainloop()
+

@@ -20,6 +20,7 @@ This tool is also useful for:
 
 **_Reset_** will reset the current counter.
 <br><br>
-<img width="200" height="333" alt="Reset image" src="https://github.com/user-attachments/assets/616356b5-23fe-42ba-86ad-b925d4014511" />
+<img width="200" height="239" alt="image" src="https://github.com/user-attachments/assets/0f7fdf3d-33b9-4605-b73e-c6ed96317447" />
+
 
 

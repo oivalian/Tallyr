@@ -6,8 +6,8 @@ I am a fiction author and I draft my chapters separately. This tool provides a c
 
 This tool is also useful for:
 
-- Split Reports or Essay
-- Academic Reasearch Notes
+- Split Reports or Essays
+- Academic Research Notes
 - Manuscript Tracking
 - Editing
 - and more ...

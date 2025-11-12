@@ -1,5 +1,5 @@
 # Tallyr
-**Tallyr** is a word counter that handles multiple documents allow for a continuous count.
+**Tallyr** is a word counter that handles multiple documents for a continuous count.
 
 ## Use cases
 I am a fiction author and I draft my chapters separately. This tool provides a cumulative word count across those files so I don’t have to compile the manuscript just to check progress.
